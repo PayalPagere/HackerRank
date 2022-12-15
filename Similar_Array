@@ -1,0 +1,11 @@
+class Matching_Array{
+    public static void main(){
+        int[] a={1,2,3,5,7,2,5,4};
+        for(int n=0;n<a.length;n++){
+            for(int m=n+1;m<a.length;m++){
+                if(a[n]==a[m]){
+                    System.out.println(a[n]);
+                }
+            }
+        }
+    }
