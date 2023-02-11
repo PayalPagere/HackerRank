@@ -1,0 +1,33 @@
+When we sum the integers  and , we get the integer .
+When we sum the floating-point numbers  and , we get .
+When we concatenate HackerRank with is the best place to learn and practice coding!, we get HackerRank is the best place to learn and practice coding!.
+
+
+
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+	
+    public static void main(String[] args) {
+        int i = 4;
+        double d = 4.0;
+        String s = "HackerRank ";
+		
+        Scanner scan = new Scanner(System.in);
+        int num = scan.nextInt();
+        double point = scan.nextDouble();
+        scan.nextLine();
+        String words = scan.nextLine();
+
+s = s+words;
+System.out.println(num+i);
+System.out.println(point+d);
+System.out.print(s);
+        scan.close();
+    }
+}
